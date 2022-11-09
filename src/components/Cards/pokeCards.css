@@ -1,0 +1,51 @@
+.CardSection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #eee;
+    padding : 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 200px;
+    min-width: 100px;
+    height: 170px;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 20px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.cardNumber{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    text-align: right;
+    border-radius: 10px 0 15px 0;
+    overflow: hidden;
+}
+
+.cardNumber p{
+    padding: 3px;
+    padding-right: 15px;
+}
+
+.cardContent{
+    width: 100%;
+    text-align: center;   
+}
+
+.pokeImg{
+    width: 90px;
+    height: 100%;
+}
+

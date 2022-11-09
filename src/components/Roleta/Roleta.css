@@ -1,0 +1,79 @@
+.RoletaSection{
+    background-color: #ccc;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.RoletaButton{
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RoletaButton:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+
+.Roletas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.roletaCards{
+    width: 160px;
+    height: 160px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 20px;
+    /* transform-style: preserve-3d; */
+}
+
+.pokeImgRoullet{
+    width: 160px;
+    height: 100%;
+}
+
+
+
+/*
+.faceCard{
+    width: calc(160px - 4.5px);
+    height: calc(160px - 4.5px);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: black;
+}
+
+.backCard{
+    background-color: red;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.frontCard{
+    background-color: blue;
+    
+}
+
+.flipCard{
+    transform: rotateY(180deg);
+}
+*/
